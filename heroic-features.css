@@ -1,0 +1,87 @@
+
+body {
+ /* padding-top: 56px;*/
+  /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEFKXGrz_dIrYL-omF_rpCSh1WiBrhgqzGLNGvWILJBi4lhU2S");*/
+  background-image: url("https://www.elsetge.cat/myimg/f/14-144230_cell-phone-live-wallpaper-fantastic-cool-phone-wallpapers.jpg");
+  background-size: cover;
+}
+.header{
+    /*background-color: black;*/
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-pscgEu0m4LO_qcQwniM-LQ1R2vlJcEd7mUNdxjsJO-eezKje");*/
+    background-image: url("https://media3.giphy.com/media/10Lj9SPC9dFlKw/source.gif");
+    background-size: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height:400px;
+    
+    
+
+}
+
+.perspective-text {
+  color: white;
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.perspective-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.333);
+}
+
+.perspective-line {
+  position: relative;
+}
+
+.perspective-line:hover p{
+  transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+  left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+  left: 58px;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
+}
+
+.perspective-line:hover p{
+  transform: translate(0, -50px);
+}
+
+p {
+  transition: all 0.5s ease-in-out;
+}
